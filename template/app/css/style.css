@@ -1,0 +1,115 @@
+@font-face {
+	font-family: 'Geometria';
+	src: url('../fonts/geometria/Geometria.woff');
+  font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Muller-bold';
+	src: url('../fonts/muller/ofont.ru_Muller.ttf');
+  font-weight: normal;
+	font-style: normal;
+}
+.body{
+	font-family: 'Geometria';
+  display: flex;
+  flex-direction: column;
+  padding: 10px
+}
+.header{
+  display: flex;
+  flex-direction: column;
+}
+.header_top{
+  justify-content: space-between;
+  display: flex;
+}
+.header__logo{
+  flex-grow: 1;
+}
+.header__sub-navigation{
+  justify-content: space-between;
+  display: flex;
+  flex-grow: 5;
+}
+.sub-navigation__item{
+
+}
+.sub-navigation__link{
+}
+.sub-navigation__list{
+  justify-content: space-between;
+  display: flex;
+}
+.header__navigation{
+}
+.navigation__list{
+  justify-content: space-between;
+  display: flex;
+}
+.navigation__sub-list{
+  display: flex;
+  flex-direction: column;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+}
+.index-banner{
+  display: flex;
+}
+.index-banner__description{
+	display:flex;
+	position:relative;
+}
+.index-banner__text{
+  position:absolute;
+  top:264px;
+  left:135px;
+}
+.services{
+  display: flex;
+}
+.services__title{
+	font-family: 'Muller-bold';
+}
+.item-slider{
+  display: flex;
+  flex-direction: column;
+}
+.item-slider__title{
+	font-family: 'Muller-bold';
+}
+.item-slider__wrap{
+  display: flex;
+}
+.item-slider__item{
+  display: flex;
+  flex-direction: column;
+}
+.footer{
+  display: flex;
+  flex-direction: column;
+}
+.footer__top{
+  justify-content: space-between;
+  display: flex;
+}
+.footer__logo{
+  flex-grow: 1;
+}
+.navigation__list{
+  justify-content: space-between;
+  display: flex;
+  flex-grow: 5;
+}
+.footer__contacts{
+  justify-content: space-between;
+  display: flex;
+  flex-grow: 2
+}
+.footer__bottom{
+  justify-content: space-between;
+  display: flex;
+  flex-grow: 1
+}

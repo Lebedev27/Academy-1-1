@@ -5,56 +5,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>РВД-Сервис</title>
+  <link rel="stylesheet" href="app\css\style.css">
 </head>
 <body class="body">
   <header class="header">
-    <span class="header__logo">РВД-Сервис</span>
-    <div class="header__sub-navigation navigation">
-      <span class="sub-navigation__item">
-        <a href="" class="sub-navigation__link">регистрация</a>
-      </span>
-      <span class="sub-navigation__item">
-        <a href="" class="sub-navigation__link">вход
-          <img src="" alt="">
-        </a>
-      </span>
-      <div class="sub-navigation__item">
-        <form action="" method="get" class="sub-navigation__search">
-          <input name="search" placeholder="Поиск" type="search">
-          <button type="submit">Поиск</button>
-        </form>
-        </div>
-      <ul class="sub-navigation__list">
-        <li class="sub-navigation__item">
-          <a href="tel:+74872584059">+7 (4872) 58-40-59</a>
-        </li>
-        <li class="sub-navigation__item">
-          <a href="mailto:info@rvd_servis.ru">info@rvd_servis.ru</a>
-        </li>
-      </ul>
-      <span class="sub-navigation__item">
-        <a href="" class="sub-navigation__link">перезвоните мне
-          <img src="" alt="">
-        </a>
-      </span>
-      <span class="sub-navigation__item">
-        <a href="" class="sub-navigation__link"><img src="" alt="Корзина">
-        </a>
-      </span>
+    <div class="header_top">
+      <span class="header__logo">РВД-Сервис</span>
+      <div class="header__sub-navigation navigation">
+        <span class="sub-navigation__item">
+          <a href="" class="sub-navigation__link">регистрация</a>
+        </span>
+        <span class="sub-navigation__item">
+          <a href="" class="sub-navigation__link">вход
+            <span class="link_enter-icon">
+              <img src="app\img\entrance.png" alt="">
+            </span>
+          </a>
+        </span>
+        <div class="sub-navigation__item">
+          <img src="app\img\search_.png" alt="">
+          <form action="" method="get" class="sub-navigation__search">
+            <input name="search" placeholder="Поиск" type="search">
+            <button type="submit">Поиск</button>
+          </form>
+          </div>
+        <ul class="sub-navigation__list">
+          <li class="sub-navigation__item">
+            <a href="tel:+74872584059">+7 (4872) 58-40-59</a>
+          </li>
+          <li class="sub-navigation__item">
+            <a href="mailto:info@rvd_servis.ru">info@rvd_servis.ru</a>
+          </li>
+        </ul>
+        <span class="sub-navigation__item">
+          <a href="" class="sub-navigation__link">перезвоните мне
+            <span class="link_recall-icon">
+              <img src="app\img\phone.png" alt="">
+            </span>
+          </a>
+        </span>
+        <span class="sub-navigation__item">
+          <a href="" class="sub-navigation__link">
+            <span class="link_basket-icon">
+              <img src="app\img\Cart.png" alt="Корзина">
+            </span>
+          </a>
+        </span>
+      </div>
     </div>
     <nav class="header__navigation navigation">
       <ul class="navigation__list">
         <li class="navigation__item">
           <a href="" class="navigation__link">Каталог товаров</a>
-          <ul class="navigation__list">
-            <li class="list__item">
-              <a href="" class="list__link">1</a>
+          <ul class="navigation__sub-list">
+            <li class="sub-list__item">
+              <a href="" class="sub-list__link">1</a>
             </li>
-            <li class="list__item">
-              <a href="" class="list__link">2</a>
+            <li class="sub-list__item">
+              <a href="" class="sub-list__link">2</a>
             </li>
-            <li class="list__item">
-              <a href="" class="list__link">3</a>
+            <li class="sub-list__item">
+              <a href="" class="sub-list__link">3</a>
             </li>
           </ul>
         </li>
@@ -78,7 +89,10 @@
       <section class="index-banner">
         <a href="" class="index-banner__link"></a>
         <div class="index-banner__description">
-          <span class="index-banner__text">Производство и ремонт РВД для грузовых автомобилей</span>
+          <img src="app\img\17-JCB-3cx-2010.jpg" alt="">
+          <span class="index-banner__text">
+              Производство и ремонт РВД для грузовых автомобилей
+          </span>
         </div>
       </section>
       <section class="services">
@@ -87,37 +101,37 @@
         </header>
         <a href="" class="services__item">
           <span class="services__image">
-            <img src="" alt="">
+            <img src="app\img\passenger_cars.png" alt="">
           </span>
           <span class="services__name">РВД для легковых автомобилей</span>
         </a>
         <a href="" class="services__item">
           <span class="services__image">
-            <img src="" alt="">
+            <img src="app\img\truck.png" alt="">
           </span>
           <span class="services__name">РВД для грузовых автомобилей</span>
         </a>
         <a href="" class="services__item">
           <span class="services__image">
-            <img src="" alt="">
+            <img src="app\img\washing.png" alt="">
           </span>
           <span class="services__name">РВД для моек высокого давления</span>
         </a>
         <a href="" class="services__item">
           <span class="services__image">
-            <img src="" alt="">
+            <img src="app\img\tractor.png" alt="">
           </span>
           <span class="services__name">РВД для коммунальной техники</span>
         </a>
         <a href="" class="services__item">
           <span class="services__image">
-            <img src="" alt="">
+            <img src="app\img\equipment.png" alt="">
           </span>
           <span class="services__name">РВД для станков и оборудования</span>
         </a>
         <a href="" class="services__item">
           <span class="services__image">
-            <img src="" alt="">
+            <img src="app\img\canal_flushing.png" alt="">
           </span>
           <span class="services__name">РВД для каналопромывочных машин</span>
         </a>
@@ -130,7 +144,7 @@
         <div class="item-slider__wrap">
             <div class="item-slider__item" class="item">
               <div class="item__name">Адаптеры 201,202 (BSP 60°)</div>
-              <img src="" alt="">
+              <img src="app\img\Адаптеры-BSP-201^3b-202.jpg" alt="">
               <div class="item__description">Соединительная верхняя резьба BSPP.</div>
               <div class="item__description">Тип: прямой.</div>
               <div class="item__description">Уплотнение соединения по конусу 60°.</div>
@@ -140,7 +154,7 @@
             </div>
             <div class="item-slider__item" class="item">
               <div class="item__name">Героторные гидромоторы BMR</div>
-              <img src="" alt="">
+              <img src="app\img\BMR-050P1AIIY-T7-фото.jpg" alt="">
               <div class="item__description">Диапазон рабочих температур от -30°C до +90°C.</div>
               <div class="item__description">Вязкость масла 20-75 сСт.</div>
               <div class="item__description">Масло в соответствии с ISO 20/16.</div>
@@ -149,7 +163,7 @@
             </div>
             <div class="item-slider__item" class="item">
               <div class="item__name">Адаптеры 201,202 (BSP 60°)</div>
-              <img src="" alt="">
+              <img src="app\img\Адаптеры.jpg" alt="">
               <div class="item__description">Материал: корпус - сталь уплотнение - NBR.</div>
               <div class="item__description">Диапазон рабочих температур: от -20°С до +80°С (NBR) от -15°С до +110°С (VITON)</div>
               <div class="item__description">Резьба: BSPP</div>
@@ -157,7 +171,7 @@
             </div>
             <div class="item-slider__item" class="item">
               <div class="item__name">Адаптеры 201,202 (BSP 60°)</div>
-              <img src="" alt="">
+              <img src="app\img\Адаптеры-BSP-201^3b-202.jpg" alt="">
               <div class="item__description">Соединительная верхняя резьба BSPP.</div>
               <div class="item__description">Тип: прямой. Уплотнение соединения по конусу 60°.</div>
               <div class="item__description">Соответствие нормам: ISO 8434-6.</div>
@@ -168,16 +182,21 @@
     </section>
   </main>
   <footer class="footer">
-    <span class="footer__logo">РВД-Сервис</span>
     <div class="footer__top">
+      <span class="footer__logo">РВД-Сервис</span>
         <nav class="footer__navigation navigation">
             <ul class="navigation__list">
-                <li class="navigation__item"><a href="#" class="navigation__link">О компании</a>
+                <li class="navigation__item">
+                  <a href="#" class="navigation__link">О компании</a>
                 </li>
-                <li class="navigation__item"><a href="#" class="navigation__link">Каталог товаров</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">РВД-Сервис (УСЛУГИ)</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">Информация</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">Контакты</a></li>
+                <li class="navigation__item">
+                  <a href="#" class="navigation__link">Каталог товаров</a></li>
+                <li class="navigation__item">
+                  <a href="#" class="navigation__link">РВД-Сервис (УСЛУГИ)</a></li>
+                <li class="navigation__item">
+                  <a href="#" class="navigation__link">Информация</a></li>
+                <li class="navigation__item">
+                  <a href="#" class="navigation__link">Контакты</a></li>
             </ul>
         </nav>
         <div class="footer__contacts contacts">
@@ -185,7 +204,9 @@
             <a href="mailto:info@rvd_servis.ru">info@rvd_servis.ru</a>
         </div>
         <form action="#">
-          <button type="submit" class="footer__button"></button>
+          <button type="submit" class="footer__button">
+            <img src="app\img\upstairs.png" alt="">
+          </button>
         </form>
     </div>
     <div class="footer__bottom">
@@ -194,7 +215,7 @@
             <span>Создание сайта</span>
             <a href="#" target="_blank">Digital Agency Dial</a>
             <span class="footer__icon">
-                <img src="" alt="">
+                <img src="app\img\Logo.png" alt="">
             </span>
         </span>
     </div>
