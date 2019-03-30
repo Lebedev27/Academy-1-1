@@ -56,6 +56,9 @@
   flex-direction: column;
 }
 .index-banner{
+  width: 1972px;
+  height: 802px;
+  background-image: url("../img/17-JCB-3cx-2010.jpg");
   display: flex;
 }
 .index-banner__description{
@@ -63,9 +66,6 @@
 	position:relative;
 }
 .index-banner__text{
-  position:absolute;
-  top:264px;
-  left:135px;
 }
 .services{
   display: flex;
