@@ -9,87 +9,81 @@
 </head>
 <body class="body">
   <header class="header">
-    <div class="header_top">
-      <span class="header__logo">РВД-Сервис</span>
-      <div class="header__sub-navigation navigation">
-        <span class="sub-navigation__item">
-          <a href="" class="sub-navigation__link">регистрация</a>
-        </span>
-        <span class="sub-navigation__item">
-          <a href="" class="sub-navigation__link">вход
-            <span class="link_enter-icon">
+    <div class="container">
+      <div class="header__top">
+        <span class="header__logo">РВД-Сервис</span>
+        <div class="header__autorisation">
+          <a href="" class="registration__link">Регистрация</a>
+          <span class="autorisation_separator">|</span>
+          <a href="" class="autorisation__enter">
+            <span class="enter__text">Вход</span>
+            <span class="autorisation__icon">
               <img src="app\img\entrance.png" alt="">
             </span>
           </a>
-        </span>
-        <div class="sub-navigation__item">
-          <img src="app\img\search_.png" alt="">
-          <form action="" method="get" class="sub-navigation__search">
-            <input name="search" placeholder="Поиск" type="search">
-            <button type="submit">Поиск</button>
-          </form>
-          </div>
-        <ul class="sub-navigation__list">
-          <li class="sub-navigation__item">
-            <a href="tel:+74872584059">+7 (4872) 58-40-59</a>
-          </li>
-          <li class="sub-navigation__item">
-            <a href="mailto:info@rvd_servis.ru">info@rvd_servis.ru</a>
-          </li>
-        </ul>
-        <span class="sub-navigation__item">
-          <a href="" class="sub-navigation__link">перезвоните мне
-            <span class="link_recall-icon">
+        </div>
+        <form action="" method="get" class="header__search">
+          <button type="submit">Поиск</button>
+          <input name="search" placeholder="Поиск" type="search">
+        </form>
+        <div class="header__contacts contacts">
+          <a href="tel:+74872584059">+7 (4872) 58-40-59</a>
+          <span class="contacts__separator">|</span>
+          <a href="mailto:info@rvd_servis.ru">info@rvd_servis.ru</a>
+        </div>
+        <div class="header__recall">
+          <a href="" class="recall__link">
+            <span class="recall__icon">
               <img src="app\img\phone.png" alt="">
-            </span>
+            </span>Перезвоните мне
           </a>
-        </span>
-        <span class="sub-navigation__item">
-          <a href="" class="sub-navigation__link">
-            <span class="link_basket-icon">
+        </div>
+        <div class="header__basket">
+          <a href="" class="basket__link">
+            <span class="basket__icon">
               <img src="app\img\Cart.png" alt="Корзина">
             </span>
           </a>
-        </span>
+        </div>
       </div>
     </div>
-    <nav class="header__navigation navigation">
-      <ul class="navigation__list">
-        <li class="navigation__item">
-          <a href="" class="navigation__link">Каталог товаров</a>
-          <ul class="navigation__sub-list">
-            <li class="sub-list__item">
-              <a href="" class="sub-list__link">1</a>
-            </li>
-            <li class="sub-list__item">
-              <a href="" class="sub-list__link">2</a>
-            </li>
-            <li class="sub-list__item">
-              <a href="" class="sub-list__link">3</a>
-            </li>
-          </ul>
-        </li>
-        <li class="navigation__item">
-          <a href="#" class="navigation__link">О компании</a>
-        </li>
-        <li class="navigation__item">
-          <a href="" class="navigation__link">РВД-Сервис (УСЛУГИ)</a>
-        </li>
-        <li class="navigation__item">
-          <a href="#" class="navigation__link">Информация</a>
-        </li>
-        <li class="navigation__item">
-          <a href="#" class="navigation__link">Контакты</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="container">
+      <nav class="header__navigation navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="" class="navigation__link">Каталог товаров</a>
+            <ul class="navigation__sub-list">
+              <li class="sub-list__item">
+                <a href="" class="sub-list__link">1</a>
+              </li>
+              <li class="sub-list__item">
+                <a href="" class="sub-list__link">2</a>
+              </li>
+              <li class="sub-list__item">
+                <a href="" class="sub-list__link">3</a>
+              </li>
+            </ul>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">О компании</a>
+          </li>
+          <li class="navigation__item">
+            <a href="" class="navigation__link">РВД-Сервис (УСЛУГИ)</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Информация</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
     <main class="main">
       <h1 class="visually-hidden">Производство и ремонт рукавов высокого давления</h1>
-      <section class="index-banner">
-        <a href="" class="index-banner__link"></a>
+      <section class="index-banner" style="background-image: url(./app/img/background-index.jpg);">
         <div class="index-banner__description">
-          <!--img src="app\img\17-JCB-3cx-2010.jpg" alt=""-->
           <span class="index-banner__text">
               Производство и ремонт РВД для грузовых автомобилей
           </span>
