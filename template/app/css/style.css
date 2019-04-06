@@ -35,7 +35,7 @@
 	font-style: normal;
 }
 
-@@font-face {
+@font-face {
 	font-family: 'Muller';
 	src: url('../fonts/muller/MullerBold.woff') format('woff');
 	src: url('../fonts/muller/MullerBold.woff2') format('woff2');
@@ -58,10 +58,6 @@ img {
 *::after {
 	box-sizing: border-box;
 	position: relative;
-}
-a {
-	text-decoration: none;
-	display: block;
 }
 .body {
 	min-width: 320px;
@@ -95,8 +91,6 @@ a {
 .header__logo {
 	width: 223px;
 	height: 33px;
-	color: #4c4c4c;
-	color: #272727;
 	font-family: Geometria;
 	font-size: 36px;
 	font-weight: 700;
@@ -110,8 +104,6 @@ a {
 	align-items: center;
 }
 .header__autorisation a {
-	color: #8d8d8d;
-	color: #e16e6e;
 	font-family: Geometria;
 	font-size: 14px;
 	font-weight: 400;
@@ -135,8 +127,13 @@ a {
 }
 .autorisation__enter{
 	display: inline-flex;
+	align-items: center;
 }
 .autorisation__icon {
+	display: inline-flex;
+	align-items: center;
+	max-width: 12px;
+	max-height: 12px;
 }
 .header__search{
 	flex-grow: 0.81;
@@ -147,8 +144,6 @@ a {
 	align-items: center;
 }
 .contacts a {
-	color: #8d8d8d;
-	color: #e16e6e;
 	font-family: Geometria;
 	font-size: 14px;
 	font-weight: 400;
