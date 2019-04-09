@@ -91,7 +91,7 @@ img {
 .header__logo {
 	width: 223px;
 	height: 33px;
-	font-family: Geometria;
+	font-family: 'Geometria';
 	font-size: 36px;
 	font-weight: 700;
 	line-height: 22px;
@@ -104,7 +104,7 @@ img {
 	align-items: center;
 }
 .header__autorisation a {
-	font-family: Geometria;
+	font-family: 'Geometria';
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 22px;
@@ -129,11 +129,16 @@ img {
 	display: inline-flex;
 	align-items: center;
 }
+.enter__text {
+	display: inline-flex;
+	padding-bottom: 5px;
+}
 .autorisation__icon {
 	display: inline-flex;
 	align-items: center;
-	max-width: 12px;
-	max-height: 12px;
+	width: 23px;
+	height: 23px;
+	padding-top: 5px;
 }
 .header__search{
 	flex-grow: 0.81;
@@ -144,7 +149,7 @@ img {
 	align-items: center;
 }
 .contacts a {
-	font-family: Geometria;
+	font-family: 'Geometria';
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 22px;
@@ -177,7 +182,7 @@ img {
 }
 .recall__link{
 	display: inline-flex;
-	font-family: Geometria;
+	font-family: 'Geometria';
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 22px;
@@ -187,10 +192,14 @@ img {
 .recall__icon{
 	margin-top: 6px;
 	margin-right: 10px;
-	max-height: 12px;
+	height: 12px;
+	width: 12px;
 }
 .header__basket{
 	flex-grow: 0.2;
+}
+.header__navigation {
+
 }
 .navigation__list {
 	list-style-type: none;
@@ -199,18 +208,51 @@ img {
 	justify-content: space-between;
 	padding: 0;
 }
-.header__navigation {
-
-}
 .navigation__item {
 	flex-grow: 1;
 	text-align: center;
+}
+.navigation__link {
+color: #13151b;
+font-family: 'Geometria';
+font-weight: bold;
+font-size: 18px;
+text-decoration: none;
+display: block;
+transition: 0.6s;
+}
+.navigation__link:hover {
+color: #bf0000;
+}
+.navigation__dropper:hover .navigation__sub-list {
+	opacity: 1;
 }
 .navigation__sub-list {
 	list-style-type: none;
 	display: flex;
 	flex-direction: column;
 	padding: 0;
+	min-height: 42px;
+	min-width: 100%;
+	position: absolute;
+	z-index: 2;
+	opacity: 0;
+}
+.sub-list__item{
+	flex-grow: 1;
+	text-align: center;
+}
+.sub-list__link{
+	color: #13151b;
+font-family: 'Geometria';
+font-weight: bold;
+font-size: 18px;
+text-decoration: none;
+display: block;
+transition: 0.6s;
+}
+.sub-navigation__link:hover {
+background: #bf0000;
 }
 .index-banner {
   min-height: 802px;
