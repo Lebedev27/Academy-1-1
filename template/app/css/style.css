@@ -53,6 +53,14 @@ img {
 	max-width: 100%;
 	display: block;
 }
+hr {
+	margin-left: 97px;
+	margin-right: 95px;
+  border: none;
+  background-color: #d1d1d1;
+  color: #d1d1d1;
+  height: 1px;
+   }
 *,
 *::before,
 *::after {
@@ -102,6 +110,7 @@ img {
 	display: flex;
 	flex-grow: 0.84;
 	align-items: center;
+	max-height: 23px;
 }
 .header__autorisation a {
 	font-family: 'Geometria';
@@ -128,17 +137,14 @@ img {
 .autorisation__enter{
 	display: inline-flex;
 	align-items: center;
+	max-height: 23px;
 }
 .enter__text {
 	display: inline-flex;
-	padding-bottom: 5px;
 }
 .autorisation__icon {
 	display: inline-flex;
 	align-items: center;
-	width: 23px;
-	height: 23px;
-	padding-top: 5px;
 }
 .header__search{
 	flex-grow: 0.81;
@@ -261,6 +267,13 @@ background: #bf0000;
   justify-content: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.index-banner::before {
+	content: none;
+	background-color: black;
+	color: black;
+	opacity: 0.44;
+	z-index: 2;
 }
 .index-banner__description {
 	color: #ffffff;
