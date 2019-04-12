@@ -15,7 +15,7 @@
         <span class="header__logo">РВД-Сервис</span>
         <div class="header__autorisation">
           <a href="" class="registration__link">Регистрация</a>
-          <span class="autorisation_separator">|</span>
+          <span class="autorisation_separator separator">|</span>
           <a href="" class="autorisation__enter">
             <span class="enter__text">Вход</span>
             <span class="autorisation__icon">
@@ -29,26 +29,24 @@
         </form>
         <div class="header__contacts contacts">
           <a href="tel:+74872584059">+7 (4872) 58-40-59</a>
-          <span class="contacts__separator">|</span>
+          <span class="contacts__separator separator">|</span>
           <a href="mailto:info@rvd_servis.ru">info@rvd_servis.ru</a>
         </div>
         <div class="header__recall">
-          <a href="" class="recall__link">
-            <span class="recall__icon">
-              <img src="app\img\phone.png" alt="">
-            </span>Перезвоните мне
-          </a>
+          <bottom class="recall__botom">Перезвоните мне</bottom>
         </div>
         <div class="header__basket">
           <a href="" class="basket__link">
             <span class="basket__icon">
               <img src="app\img\Cart.png" alt="Корзина">
             </span>
+            <span class="basket__count">
+              2
+            </span>
           </a>
         </div>
       </div>
     </div>
-    <hr>
     <div class="container">
       <nav class="header__navigation navigation">
         <ul class="navigation__list">
@@ -95,44 +93,47 @@
         <header class="services__title custom-title">
           <h2>Наши услуги</h2>
         </header>
-        <a href="" class="services__item">
-          <span class="services__image">
-            <img src="app\img\passenger_cars.png" alt="">
-          </span>
-          <span class="services__name">РВД для легковых автомобилей</span>
-        </a>
-        <a href="" class="services__item">
-          <span class="services__image">
-            <img src="app\img\truck.png" alt="">
-          </span>
-          <span class="services__name">РВД для грузовых автомобилей</span>
-        </a>
-        <a href="" class="services__item">
-          <span class="services__image">
-            <img src="app\img\washing.png" alt="">
-          </span>
-          <span class="services__name">РВД для моек высокого давления</span>
-        </a>
-        <a href="" class="services__item">
-          <span class="services__image">
-            <img src="app\img\tractor.png" alt="">
-          </span>
-          <span class="services__name">РВД для коммунальной техники</span>
-        </a>
-        <a href="" class="services__item">
-          <span class="services__image">
-            <img src="app\img\equipment.png" alt="">
-          </span>
-          <span class="services__name">РВД для станков и оборудования</span>
-        </a>
-        <a href="" class="services__item">
-          <span class="services__image">
-            <img src="app\img\canal_flushing.png" alt="">
-          </span>
-          <span class="services__name">РВД для каналопромывочных машин</span>
-        </a>
+        <div class="services__wrapper">
+          <a href="" class="services__item">
+            <span class="services__image">
+              <img src="app\img\passenger_cars.png" alt="">
+            </span>
+            <span class="services__name">РВД для легковых автомобилей</span>
+          </a>
+          <a href="" class="services__item">
+            <span class="services__image">
+              <img src="app\img\truck.png" alt="">
+            </span>
+            <span class="services__name">РВД для грузовых автомобилей</span>
+          </a>
+          <a href="" class="services__item">
+            <span class="services__image">
+              <img src="app\img\washing.png" alt="">
+            </span>
+            <span class="services__name">РВД для моек высокого давления</span>
+          </a>
+          <a href="" class="services__item">
+            <span class="services__image">
+              <img src="app\img\tractor.png" alt="">
+            </span>
+            <span class="services__name">РВД для коммунальной техники</span>
+          </a>
+          <a href="" class="services__item">
+            <span class="services__image">
+              <img src="app\img\equipment.png" alt="">
+            </span>
+            <span class="services__name">РВД для станков и оборудования</span>
+          </a>
+          <a href="" class="services__item">
+            <span class="services__image">
+              <img src="app\img\canal_flushing.png" alt="">
+            </span>
+            <span class="services__name">РВД для каналопромывочных машин</span>
+          </a>
+        </div>
       </section>
-      <span class="comment">Компания "РВД-Сервис" длительное время успешноуспешно занимается производством, а также ремонтом рукавов высокого давления (РВД) и труб высокого давления (ТВД)</div>
+      <div class="container">
+      <span class="comment">Компания "РВД-Сервис" длительное время успешноуспешно занимается производством, а также ремонтом рукавов высокого давления (РВД) и труб высокого давления (ТВД)</span>
       <section class="items-slider">
         <header class="item-slider__title custom-title">
             <h2>Популярные товары</h2>
@@ -176,8 +177,10 @@
             </div>
         </div>
     </section>
+    </div>
   </main>
   <footer class="footer">
+    <div class="container">
     <div class="footer__top">
       <span class="footer__logo">РВД-Сервис</span>
         <nav class="footer__navigation navigation">
@@ -207,14 +210,15 @@
     </div>
     <div class="footer__bottom">
         <span class="footer__copy footer__copy_uppercase">Copyright © 2018 "РВД-Сервис". Все права защищены.</span>
-        <span class="footer__copy">
+        <!--<span class="footer__copy">-->
             <span>Создание сайта</span>
             <a href="#" target="_blank">Digital Agency Dial</a>
             <span class="footer__icon">
                 <img src="app\img\Logo.png" alt="">
             </span>
-        </span>
+        <!--</span>-->
     </div>
+  </div>
   </footer>
 </body>
 </html>
