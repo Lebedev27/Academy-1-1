@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>РВД-Сервис</title>
-  <link rel="stylesheet" href="app\css\style.css">
-  <link rel="stylesheet" href="app\css\media.css">
+  <link rel="stylesheet" href=".\app\css\style.css">
+  <link rel="stylesheet" href=".\app\css\media.css">
+  <link rel="stylesheet" href=".\app\css\swiper.min.css">
 </head>
 <body class="body">
   <header class="header">
@@ -78,12 +79,12 @@
           </li>
         </ul>
       </nav>
+      <button class="header__burger"></button>
     </div>
   </header>
     <main class="main">
       <h1 class="visually-hidden">Производство и ремонт рукавов высокого давления</h1>
       <section class="index-banner" style="background-image: url(./app/img/background-index.jpg);">
-        <a href="" class="banner__link">Уплотнения</a>
         <div class="index-banner__description">
           <span class="index-banner__text">
               Производство и ремонт РВД для грузовых автомобилей
@@ -91,9 +92,11 @@
         </div>
       </section>
       <section class="services">
+        <div class="container">
         <header class="services__title custom-title">
           <h2>Наши услуги</h2>
         </header>
+        </div>
         <div class="services__wrapper">
           <a href="" class="services__item">
             <span class="services__image">
@@ -139,8 +142,9 @@
         <header class="item-slider__title custom-title">
             <h2>Популярные товары</h2>
         </header>
-        <div class="item-slider__wrap">
-            <div class="item-slider__item" class="item">
+        <div class="item-slider__body swiper-container">
+        <div class="item-slider__wrap swiper-wrapper">
+            <div class="item-slider__item item swiper-slide">
               <div class="item__name">Адаптеры 201,202 (BSP 60°)</div>
               <div class="item__impage"><img src="app\img\Адаптеры-BSP-201^3b-202.jpg" alt=""></div>
               <div class="item__description">Соединительная верхняя резьба BSPP.</div>
@@ -150,7 +154,7 @@
               <div class="item__description">Материал: сталь.</div>
                 <a href="" class="item__link">Подробнее</a>
             </div>
-            <div class="item-slider__item" class="item">
+            <div class="item-slider__item item swiper-slide">
               <div class="item__name">Героторные гидромоторы BMR</div>
               <div class="item__impage"><img src="app\img\BMR-050P1AIIY-T7-фото.jpg" alt=""></div>
               <div class="item__description">Диапазон рабочих температур от -30°C до +90°C.</div>
@@ -159,7 +163,7 @@
               <div class="item__description">Пиковая нагрузка допускается не более 0,6 сек. от каждой минуты.</div>
               <a href="" class="item__link">Подробнее</a>
             </div>
-            <div class="item-slider__item" class="item">
+            <div class="item-slider__item item swiper-slide">
               <div class="item__name">Адаптеры 201,202 (BSP 60°)</div>
               <div class="item__impage"><img src="app\img\Адаптеры.jpg" alt=""></div>
               <div class="item__description">Материал: корпус - сталь уплотнение - NBR.</div>
@@ -167,7 +171,7 @@
               <div class="item__description">Резьба: BSPP</div>
               <a href="" class="item__link">Подробнее</a>
             </div>
-            <div class="item-slider__item" class="item">
+            <div class="item-slider__item item swiper-slide">
               <div class="item__name">Адаптеры 201,202 (BSP 60°)</div>
               <div class="item__impage"><img src="app\img\Адаптеры-BSP-201^3b-202.jpg" alt=""></div>
               <div class="item__description">Соединительная верхняя резьба BSPP.</div>
@@ -176,6 +180,17 @@
               <div class="item__description">Материал: сталь.</div>
               <a href="" class="item__link">Подробнее</a>
             </div>
+            <div class="item-slider__item item swiper-slide">
+              <div class="item__name">Героторные гидромоторы BMR</div>
+              <div class="item__impage"><img src="app\img\BMR-050P1AIIY-T7-фото.jpg" alt=""></div>
+              <div class="item__description">Диапазон рабочих температур от -30°C до +90°C.</div>
+              <div class="item__description">Вязкость масла 20-75 сСт.</div>
+              <div class="item__description">Масло в соответствии с ISO 20/16.</div>
+              <div class="item__description">Пиковая нагрузка допускается не более 0,6 сек. от каждой минуты.</div>
+              <a href="" class="item__link">Подробнее</a>
+            </div>
+            <div class="swiper__pagination"></div>
+        </div>
         </div>
     </section>
     </div>
@@ -185,7 +200,7 @@
     <div class="footer__top">
       <span class="footer__logo">РВД-Сервис</span>
         <nav class="footer__navigation navigation">
-            <ul class="navigation__list">
+            <ul class="navigation__list footer__list">
                 <li class="navigation__item footer__item">
                   <a href="#" class="navigation__link">О компании</a>
                 </li>
@@ -222,5 +237,7 @@
     </div>
   </div>
   </footer>
+  <script src="./app/libs/swiper.min.js"></script>
+  <script src="./app/js/script.js"></script>
 </body>
 </html>
