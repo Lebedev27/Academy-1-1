@@ -1,5 +1,26 @@
 @media screen and (max-width: 1468px) {
     /* Мониторы*/
+    .navigation__dropper::after {
+      left: 62%;
+    }
+    .footer__container {
+      padding: 0 0 0 0;
+    }
+    .footer__top {
+      flex-wrap: wrap;
+    }
+    .footer__contacts {
+      position: absolute;
+      right: 40%;
+      top: 166%;
+      z-index: 2;
+    }
+    .footer__container {
+      right: 0;
+    }
+    .footer__button {
+      right: 0;
+    }
 }
 @media screen and (max-width:1366px) {
     body {
@@ -54,6 +75,10 @@
     .navigation__item:last-child {
         text-align: center;
     }
+    .navigation__item:nth-child(2n) {
+        text-align: center;
+        padding: 0 0 0 0;
+    }
 }
 @media screen and (max-width: 768px) {
     /* Альбомная - телефоны / планшеты */
@@ -65,5 +90,5 @@
     /* Для телефонов */
 }
 /* @media screen and (min-device-aspect-ratio: 16/9) {
-  
+
 } */
