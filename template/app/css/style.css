@@ -272,6 +272,14 @@ img {
 .navigation__item:last-child {
 	text-align: right;
 }
+.navigation__item:nth-child(2) {
+	text-align: left;
+	padding-left: 30px;
+}
+.navigation__item:nth-child(4) {
+	text-align: right;
+	padding-right: 15px;
+}
 .navigation__border-link::before {
 	content: '';
 	display: block;
@@ -592,8 +600,24 @@ flex-direction: column;
 	width: 100%;
 }
 .footer__item {
-	text-align: center !important;
+	text-align: center;
 	min-width: 217px;
+}
+.footer__item:first-child{
+	text-align: center;
+	padding-right: 30px;
+}
+.footer__item:last-child{
+	text-align: center;
+	padding-left: 15px;
+}
+.footer__item:nth-child(2) {
+	text-align: left;
+	padding-left: 0;
+}
+.footer__item:nth-child(4) {
+	text-align: right;
+	padding-right: 0;
 }
 .footer__contacts {
 	display: flex;
