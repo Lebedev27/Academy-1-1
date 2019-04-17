@@ -134,6 +134,7 @@
     position: absolute;
     top: 10px;
     padding-left: 2%;
+    flex-grow: 0;
     }
     .footer__navigation {
       padding-left: 0;
