@@ -264,7 +264,7 @@
       padding: 0 0 0 0;
     }
     .recall__button::before {
-      left: 5;
+      left: -5px;
     }
     .header__basket {
       flex-grow: 0;
@@ -377,9 +377,71 @@
 }
 @media screen and (max-width: 635px) {
     /* Альбомная - телефоны */
+    .header__top {
+      padding: 35px 0 15px 0;
+    }
+    .header__logo {
+      left: 35%;
+    }
+    .authorization_separator {
+      display: none;
+    }
+    .header__basket {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      height: 23px;
+      width: 27px;
+    }
+    .index-banner {
+      min-height: 265px;
+    }
+    .index-banner__description {
+      font-size: 22px;
+    }
+    .services__title {
+      font-size: 12px;
+    }
+    .services__item {
+      min-height: 163px;
+      min-width: 71%;
+    }
+    .services__name {
+      font-size: 15px;
+    }
+    .comment {
+      font-size: 12px;
+    }
+    .footer__button {
+      display: none;
+    }
+    .footer__copy {
+      min-width: 0;
+      width: 200px;
+      align-items: flex-end;
+    }
+    .footer__icon {
+      height: 32px;
+      width: 32px;
+    }
 }
 @media screen and (max-width: 479px) {
     /* Для телефонов */
+    .header__logo {
+      font-size: 20px;
+      left: 7%;
+    }
+    .recall__button {
+      position: absolute;
+      top: 0;
+      right: 7%;
+    }
+    .footer__logo {
+      display: none;
+    }
+    .footer__top {
+      justify-content: center;
+    }
 }
 /* @media screen and (min-device-aspect-ratio: 16/9) {
 
