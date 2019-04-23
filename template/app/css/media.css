@@ -1,5 +1,11 @@
 @media screen and (max-width: 1468px) {
     /* Мониторы*/
+    body {
+      margin: 0;
+    }
+    .container {
+      padding: 0 23px;
+    }
     .header__logo {
       font-size: 34px;
       padding-left: 0;
@@ -33,6 +39,7 @@
     .services__name {
       font-size: 22px;
       padding: 0 0 0 0;
+      text-align: center;
     }
     .item-slider__title {
       font-size: 22px;
@@ -69,6 +76,9 @@
     }
     .footer__item {
       min-width: 0;
+    }
+    .footer__bottom {
+      padding: 0 10px 10px 10px;
     }
 }
 
@@ -518,6 +528,12 @@
     .contacts a {
       font-size: 13px;
     }
+    .footer__bottom {
+      flex-direction: column;
+    }
+    .footer__copy {
+      justify-content: center;
+    }
 
 @media screen and (max-width: 479px) {
     /* Для телефонов */
@@ -591,6 +607,13 @@
     }
     .footer__bottom {
       margin-top: 15px;
+    }
+    .footer__copy_uppercase {
+      display: flex;
+      flex-direction: column;
+    }
+    .footer::before {
+      height: 55%;
     }
 
 /* @media screen and (min-device-aspect-ratio: 16/9) {
