@@ -144,6 +144,7 @@
     right: 0;
     z-index: 3;
   }
+}
 
 @media screen and (max-width: 974px) {
     body {
@@ -461,7 +462,7 @@
     .footer__copy {
       min-width: 0;
     }
-
+}
 
 @media screen and (max-width: 635px) {
     /* Альбомная - телефоны */
@@ -534,7 +535,7 @@
     .footer__copy {
       justify-content: center;
     }
-
+}
 @media screen and (max-width: 479px) {
     /* Для телефонов */
     body {
@@ -615,7 +616,7 @@
     .footer::before {
       height: 55%;
     }
-
+}
 /* @media screen and (min-device-aspect-ratio: 16/9) {
 
 } */
