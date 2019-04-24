@@ -462,6 +462,12 @@
     .footer__copy {
       min-width: 0;
     }
+    .footer__copy span {
+      padding-right: 5px;
+    }
+    .footer__copy a {
+      padding-right: 5px;
+    }
 }
 
 @media screen and (max-width: 635px) {
@@ -550,12 +556,15 @@
     .authorization_separator {
       display: none;
     }
+    .registration__link {
+      padding-right: 28%;
+    }
     .authorization__enter {
-      padding-right: 57%;
+      padding-right: 75%;
     }
     .header__search {
       top: 40%;
-      left: 31%;
+      left: 28%;
     }
     .header__basket {
       top: 18%;
