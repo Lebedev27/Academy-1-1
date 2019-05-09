@@ -1,0 +1,32 @@
+.index-banner {
+  min-height: 802px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &::before {
+  	content: '';
+  	background-color: rgba(0, 0, 0, 0.44);
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  }
+  &__description {
+  	color: #ffffff;
+  	font-family: "Muller";
+  	font-size: 60px;
+  	font-weight: bold;
+  	line-height: 72px;
+  	text-transform: uppercase;
+  	padding-left: 140px;
+  	padding-right: 900px;
+  	padding-bottom: 75px;
+  	display: flex;
+  }
+  &__text {
+  	display: inline-flex;
+  }
+}

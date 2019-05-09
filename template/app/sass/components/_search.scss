@@ -1,0 +1,28 @@
+.header__search{
+	display: flex;
+	flex-grow: 0.81;
+	align-items: center;
+	justify-content: center;
+	padding-left: 50px;
+}
+.search__button{
+	display:inline-flex;
+  &::before {
+  	content: '';
+  	position: relative;
+  	width: 23px;
+  	height: 23px;
+  	background: url(../../img/search_.png);
+  	top: 0;
+  	left: -10px;
+  	transition: 0.6s;
+  }
+}
+.search__input{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #8d8d8d;
+	border: none;
+	border-bottom: 1px solid #d1d1d1
+}

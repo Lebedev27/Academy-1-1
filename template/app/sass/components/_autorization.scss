@@ -1,0 +1,30 @@
+.header__authorization{
+  display: flex;
+  flex-grow: 0.84;
+  align-items: center;
+  justify-content: center;
+  padding-right: 30px;
+  & a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #8d8d8d;
+    text-decoration: none;
+    display: flex;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+.authorization__enter{
+  display: inline-flex;
+  align-items: center;
+}
+.enter__text {
+	display: inline-flex;
+}
+.authorization__icon {
+	display: inline-flex;
+	align-items: center;
+	padding-left: 15px;
+}

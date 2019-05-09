@@ -213,6 +213,9 @@ img {
 	opacity: 1;
 	cursor: pointer
 }
+.basket{
+	flex-grow: 0.2;
+}
 .basket__count {
 	width: 21px;
 	height: 21px;
@@ -230,9 +233,6 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-.header__basket{
-	flex-grow: 0.2;
 }
 .navigation__list {
 	list-style-type: none;

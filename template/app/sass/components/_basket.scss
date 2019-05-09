@@ -1,0 +1,21 @@
+.basket{
+	flex-grow: 0.2;
+  &__count {
+  	width: 21px;
+  	height: 21px;
+  	font-size: 12px;
+  	border-radius: 50%;
+  	background: red;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	position: absolute;
+  	top: -7px;
+  	right: -5px;
+  }
+  &__link {
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  }
+}

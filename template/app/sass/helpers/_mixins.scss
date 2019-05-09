@@ -1,0 +1,18 @@
+@mixin fonts($font-family, $font-name, $font-weight, $font-style) {
+    @if $font-style == "Geometria" {
+        @font-face {
+            font-family: $font-family;
+            src: url("../fonts/geometria/#{$font-name}-#{$font-weight}i.woff") format("woff"),
+            font-weight: $font-weight;
+            font-style: $font-style;
+        }
+    }
+     @if $font-style == "Muller" {
+        @font-face {
+            font-family: $font-family;
+            src: url("../fonts/mullerr/#{$font-name}-#{$font-weight}i.woff") format("woff"),
+            font-weight: $font-weight;
+            font-style: $font-style;
+        }
+      }
+    }  

@@ -12,7 +12,7 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('sass', function() {
-  return gulp.src('app/sass/_main.scss')
+  return gulp.src('app/**/*.scss')
   .pipe(sass({outputStyle: 'expanded'}))
   .pipe(gulp.dest('app/css'))
   .pipe(browserSync.reload({stream: true}))

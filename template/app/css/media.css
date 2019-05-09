@@ -102,7 +102,7 @@
     flex-grow: 0;
     padding: 0 0 0 0;
   }
-  .header__basket {
+  .basket {
     flex-grow: 0;
   }
   .header__contacts {
@@ -302,7 +302,7 @@
     .recall__button::before {
       left: -5px;
     }
-    .header__basket {
+    .basket {
       flex-grow: 0;
       position: absolute;
       top: 55%;
@@ -478,7 +478,7 @@
     .header__authorization a {
       font-size: 13px;
     }
-    .header__basket {
+    .basket {
       top: 25%;
       right: 2%;
     }
@@ -566,7 +566,7 @@
       top: 40%;
       left: 28%;
     }
-    .header__basket {
+    .basket {
       top: 18%;
     }
     .index-banner {
