@@ -28,3 +28,47 @@
 	align-items: center;
 	padding-left: 15px;
 }
+@media screen and (max-width:1366px) {
+  .header__authorization {
+    flex-grow: 0;
+    padding: 0 0 0 0;
+  }
+}
+@media screen and (max-width: 974px) {
+  .header__authorization {
+    flex-grow: 0;
+    flex-wrap: wrap;
+  }
+  .authorization__enter {
+    font-size: 12px;
+  }
+  .authorization__icon {
+    display: none;
+  }
+  .registration__link {
+    font-size: 12px;
+    padding-right: 5px;
+  }
+}
+@media screen and (max-width: 635px) {
+  .header__authorization a {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .header__authorization {
+    width: 100px;
+    & a {
+      font-size: 12px;
+    }
+  }
+  .authorization_separator {
+    display: none;
+  }
+  .registration__link {
+    padding-right: 28%;
+  }
+  .authorization__enter {
+    padding-right: 75%;
+  }
+}

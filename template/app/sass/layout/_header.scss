@@ -40,5 +40,124 @@
       text-decoration: underline;
     }
   }
-
+}
+@media screen and (max-width: 1468px){
+  .header {
+    &__logo {
+      font-size: 34px;
+      padding-left: 0;
+    }
+  }
+}
+@media screen and (max-width:1366px) {
+  .header {
+    &__logo {
+      font-size: 32px;
+      flex-grow: 0;
+    }
+    &__search {
+      flex-grow: 0;
+      padding: 0 0 0 0;
+    }
+    &__contacts {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 974px) {
+  .header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    z-index: 4;
+    &__burger {
+      display: block;
+      position: absolute;
+      width: 40px;
+      height: 20px;
+      border: none;
+      top: -58px;
+      right: 20%;
+      cursor: pointer;
+      z-index: 4;
+      &::before {
+        content: '';
+        width: 40px;
+        height: 2px;
+        background: black;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.5s;
+      }
+      &::after {
+        content: '';
+        width: 40px;
+        height: 2px;
+        background: black;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        transition: 0.5s;
+      }
+      &.js-isActive::before {
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%) rotate(45deg);
+      }
+      &.js-isActive::after {
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%) rotate(-45deg);
+      }
+    }
+    &__top {
+      flex-direction: column;
+      align-items: flex-start;
+      border-bottom: 0;
+    }
+    &__logo {
+      font-size: 28px;
+      flex-grow: 0;
+    }
+    &__navigation {
+        width: 400px;
+        height: 92%;
+        max-height: 100vh;
+        background: white;
+        position: fixed;
+        top: 8%;
+        right: -400px;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+        transition: 0.5s;
+        padding: 50px 25px;
+        &.js-isActive {
+            right: 0;
+            z-index: 2;
+        }
+    }
+  }
+  .contacts {
+    flex-grow: 0;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    &__navigation {
+      width: 320px;
+    }
+  }
+}
+@media screen and (max-width: 635px) {
+  .header__burger {
+    right: 5%;
+  }
+  .contacts a {
+    font-size: 13px;
+  }
 }

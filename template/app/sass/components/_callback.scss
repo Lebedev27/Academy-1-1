@@ -25,3 +25,20 @@
   	cursor: pointer
   }
 }
+@media screen and (max-width:1366px) {
+	.recall__button {
+    flex-grow: 0;
+    padding: 0 0 0 0;
+  }
+}
+@media screen and (max-width: 974px) {
+	.recall__button {
+		font-size: 12px;
+		flex-grow: 0;
+		min-width: 122px;
+		padding: 0 0 0 0;
+		&::before {
+      left: -5px;
+    }
+	}
+}

@@ -45,3 +45,45 @@ img {
 	display: block;
 	margin: 0px 15px;
 }
+@media screen and (max-width: 1468px) {
+	body {
+		margin: 0;
+	}
+	.body {
+		font-size: 17px;
+	}
+	.container {
+		padding: 0 23px;
+	}
+}
+@media screen and (max-width:1366px) {
+	body {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 974px) {
+	body {
+		font-size: 15px;
+	}
+	.separator {
+		font-size: 12px;
+		font-weight: 800;
+		margin: 0 0 0 0;
+		padding-right: 5px;
+	}
+}
+@media screen and (max-width: 768px) {
+	body {
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 635px) {
+	body {
+		font-size: 13px;
+	}
+}
+@media screen and (max-width: 479px) {
+	body {
+		font-size: 12px;
+	}
+}

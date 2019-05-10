@@ -26,3 +26,29 @@
 	border: none;
 	border-bottom: 1px solid #d1d1d1
 }
+@media screen and (max-width:1366px) {
+	.header__search {
+    flex-grow: 0;
+    padding: 0 0 0 0;
+  }
+}
+@media screen and (max-width: 974px) {
+	.header__search {
+		flex-grow: 0;
+		position: absolute;
+		top: 55%;
+		left: 35%;
+	}
+	.search__input {
+		font-size: 13px;
+	}
+	.search__button::before {
+		left: 0;
+	}
+}
+@media screen and (max-width: 479px) {
+	.header__search {
+		top: 40%;
+		left: 28%;
+	}
+}

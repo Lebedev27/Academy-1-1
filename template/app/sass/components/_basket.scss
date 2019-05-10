@@ -19,3 +19,27 @@
   	justify-content: center;
   }
 }
+@media screen and (max-width:1366px) {
+	.basket {
+    flex-grow: 0;
+  }
+}
+@media screen and (max-width: 974px) {
+	.basket {
+		flex-grow: 0;
+		position: absolute;
+		top: 55%;
+		right: 2%;
+	}
+}
+@media screen and (max-width: 635px) {
+	.basket {
+		top: 25%;
+		right: 2%;
+	}
+}
+@media screen and (max-width: 479px) {
+	.basket {
+		top: 18%;
+	}
+}
