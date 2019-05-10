@@ -5,6 +5,10 @@
   justify-content: center;
   background-repeat: no-repeat;
   background-size: cover;
+  @include adaptive (1468) {
+    min-height: 750px;
+    
+  }
   &::before {
   	content: '';
   	background-color: rgba(0, 0, 0, 0.44);
@@ -18,13 +22,17 @@
   	color: #ffffff;
   	font-family: "Muller";
   	font-size: 60px;
-  	font-weight: bold;
+  	font-weight: 700;
   	line-height: 72px;
   	text-transform: uppercase;
   	padding-left: 140px;
   	padding-right: 900px;
   	padding-bottom: 75px;
-  	display: flex;
+    display: flex;
+    @include adaptive(1468) {
+      font-size: 55px;
+      padding: 0 370px 0px 95px;
+    }
   }
   &__text {
   	display: inline-flex;
@@ -32,11 +40,7 @@
 }
 @media screen and (max-width: 1468px) {
   .index-banner {
-    min-height: 750px;
-    &__description {
-      font-size: 55px;
-      padding: 0 370px 0px 95px;
-    }
+   
   }
 }
 @media screen and (max-width:1366px) {

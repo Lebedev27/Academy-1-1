@@ -1,43 +1,42 @@
 @font-face {
-  font-family: 'Geometria';
-  src: url("../../fonts/geometria/Geometria-Heavy.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Geometria';
-  src: url("../../fonts/geometria/Geometria-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Geometria';
-  src: url("../../fonts/geometria/Geometria.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Geometria';
-  src: url("../../fonts/geometria/Geometria-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Geometria';
-  src: url("../../fonts/geometria/Geometria-Light.woff") format("woff");
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-300.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Muller';
-  src: url("../../fonts/muller/MullerBold.woff") format("woff");
-  src: url("../../fonts/muller/MullerBold.woff2") format("woff2");
-  font-weight: bold;
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-400.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-500.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-700.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Geometria";
+  src: url("../fonts/Geometria-800.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: url("../fonts/Muller-700.woff") format("woff");
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -161,7 +160,7 @@ img {
   position: relative;
   width: 12px;
   height: 12px;
-  background: url(../../img/phone.png);
+  background: url(../img/phone.png);
   top: 0px;
   left: -12px;
   transition: 0.6s;
@@ -209,7 +208,7 @@ img {
   position: relative;
   width: 23px;
   height: 23px;
-  background: url(../../img/search_.png);
+  background: url(../img/search_.png);
   top: 0;
   left: -10px;
   transition: 0.6s;
@@ -1017,6 +1016,12 @@ img {
   background-size: cover;
 }
 
+@media screen and (max-width: 1468px) {
+  .index-banner {
+    min-height: 750px;
+  }
+}
+
 .index-banner::before {
   content: '';
   background-color: rgba(0, 0, 0, 0.44);
@@ -1031,7 +1036,7 @@ img {
   color: #ffffff;
   font-family: "Muller";
   font-size: 60px;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 72px;
   text-transform: uppercase;
   padding-left: 140px;
@@ -1040,18 +1045,15 @@ img {
   display: flex;
 }
 
-.index-banner__text {
-  display: inline-flex;
-}
-
 @media screen and (max-width: 1468px) {
-  .index-banner {
-    min-height: 750px;
-  }
   .index-banner__description {
     font-size: 55px;
     padding: 0 370px 0px 95px;
   }
+}
+
+.index-banner__text {
+  display: inline-flex;
 }
 
 @media screen and (max-width: 1366px) {
